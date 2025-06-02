@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Fire Within</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body, html { font-family: 'Georgia', serif; background: #111; color: white; scroll-behavior: smooth; }
+    .hero { position: relative; height: 100vh; width: 100%; overflow: hidden; display: flex; justify-content: center; align-items: center; text-align: center; }
+    .hero video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; }
+    .hero-content { z-index: 2; background: rgba(0, 0, 0, 0.6); padding: 2rem; border-radius: 10px; }
+    .hero-title { font-size: 4rem; font-weight: bold; margin-bottom: 1rem; }
+    .hero-subtitle { font-size: 1.5rem; margin-bottom: 2rem; font-style: italic; }
+    .cta-button { padding: 0.8rem 2rem; background: #ff4a00; color: white; border: none; border-radius: 5px; font-size: 1rem; cursor: pointer; transition: background 0.3s; }
+    .cta-button:hover { background: #e03e00; }
+    section { padding: 4rem 2rem; text-align: center; }
+    .section-title { font-size: 2.5rem; margin-bottom: 1.5rem; }
+    .section-text { font-size: 1.2rem; max-width: 800px; margin: 0 auto; line-height: 1.6; }
+    .image-placeholder { width: 100%; max-width: 800px; height: 400px; margin: 2rem auto; background: #333; display: flex; justify-content: center; align-items: center; color: #999; font-size: 1rem; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <video autoplay muted loop>
+      <source src="fire-background.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-content">
+      <h1 class="hero-title">The Fire Within</h1>
+      <p class="hero-subtitle">A documentary photo exhibition by [Your Name]</p>
+      <a href="#prologue"><button class="cta-button">Enter Exhibition</button></a>
+    </div>
+  </div>
+  <section id="prologue"><h2 class="section-title">The Fire That Found Me</h2><p class="section-text">
+  This exhibition began as a quiet observation, but quickly became a calling... Through these images, I invite you to witness what I saw, and feel what I felt, in the heart of fire.
+  </p></section>
+  <section id="chapter1"><h2 class="section-title">Chapter 1: The Spark</h2><div class="image-placeholder">[Image: Firefighters prepping gear]</div><p class="section-text">The fire doesn’t start with flames...</p></section>
+  <section id="chapter2"><h2 class="section-title">Chapter 2: The Inferno</h2><div class="image-placeholder">[Image: Fire scene action shot]</div><p class="section-text">When the alarm sounds, adrenaline ignites...</p></section>
+  <section id="chapter3"><h2 class="section-title">Chapter 3: The Aftermath</h2><div class="image-placeholder">[Image: Burnt site, silent stills]</div><p class="section-text">After the flames are gone, silence returns...</p></section>
+  <section id="chapter4"><h2 class="section-title">Chapter 4: The Hidden Cost</h2><div class="image-placeholder">[Image: Firefighter in deep thought]</div><p class="section-text">Beneath the uniform is a human story...</p></section>
+  <section id="chapter5"><h2 class="section-title">Chapter 5: The Flame Within</h2><div class="image-placeholder">[Image: Portraits of diverse firefighters]</div><p class="section-text">What burns inside them isn’t fear — it’s resolve...</p></section>
+  <section id="behind-the-lens"><h2 class="section-title">Behind the Lens</h2><div class="image-placeholder">[Image: Photographer in the field]</div><p class="section-text">This project tested me — physically, emotionally, professionally...</p></section>
+  <section id="finale"><h2 class="section-title">Finale: Eternal Flame</h2><div class="image-placeholder">[Image: Firefighter walking into dusk]</div><p class="section-text">The fire ends, but the spirit remains...</p></section>
+  <section id="prints"><h2 class="section-title">Own a Piece of the Flame</h2><p class="section-text">Selected photographs from "The Fire Within" are available for print. After making a donation to support this ongoing documentary agenda, you can request any image to be printed and delivered to your location. Various sizes are available, and your contribution helps fuel future stories that matter.</p></section>
+  <section id="credits"><h2 class="section-title">Credits & Acknowledgments</h2><p class="section-text">Special thanks to the Ghana National Fire Service, Greater Accra PR Department, all the firefighters featured, and everyone who helped make this story possible.<br><br>Exhibition by [Your Name] | Contact: [Your Email] | Follow on Instagram: @192Diaries</p></section>
+</body>
+</html>
